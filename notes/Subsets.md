@@ -1,6 +1,7 @@
 # Solution 
 
 Runtime: 0 ms, faster than 100.00% of Java online submissions for Subsets.
+
 Memory Usage: 37.3 MB, less than 98.76% of Java online submissions for Subsets.
 
 ```java
