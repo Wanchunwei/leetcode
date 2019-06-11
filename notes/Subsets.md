@@ -29,3 +29,13 @@ class Solution {
     }
 }
 ```
+
+# Algorism 
+
+1. DFS(Recursion)
+
+# Time complexity
+
+
+# Better solution 
+Currently Best;
