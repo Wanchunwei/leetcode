@@ -40,8 +40,8 @@ class Solution {
 # Better solution 
 Currently Best
 
-#Notes
+# Notes
 
-#Relavent Question
+# Relavent Question
 - [90 Subsets II](https://github.com/Wanchunwei/leetcode/blob/master/notes/SubsetsII.md)
 
