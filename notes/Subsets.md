@@ -1,3 +1,11 @@
+# Algorism 
+
+DFS(Recursion)
+
+# Better solution 
+
+Currently Best
+
 # Solution 
 
 Runtime: 0 ms, faster than 100.00% of Java online submissions for Subsets.
@@ -38,14 +46,8 @@ class Solution {
 }
 ```
 
-# Algorism 
-1. DFS(Recursion)
-
 # Time complexity
 
-
-# Better solution 
-Currently Best
 
 # Notes and Tips
 
