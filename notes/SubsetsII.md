@@ -48,6 +48,10 @@ class Solution {
 ```
 
 # Time complexity
+T(n) = T(n-1) + T(n-2) + ... +T(0)
+
+O(2＾n)
+
 
 # Notes and Tips
 
