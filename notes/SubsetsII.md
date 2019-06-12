@@ -60,6 +60,10 @@ Eg: [1,1,1,1,1,1]
 
 Due to that we don't want redundant subsets, we should use `Arrays.sort()` to sort the given array to gather redundant number. 
 
+3. Don't inverse the condition `i != pos && nums[i] == nums[i - 1]`
+
+We must judge `i != pos` and then `nums[i] == nums[i - 1]`, otherwise there will an error.   
+
 # Relavent Question
 - [78 Subsets](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets.md)
 
