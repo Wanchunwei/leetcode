@@ -1,9 +1,7 @@
 # Algorism 
-
 DFS(Recursion)
 
 # Better solution 
-
 Currently Best
 
 # Solution 
@@ -51,21 +49,17 @@ class Solution {
 
 # Time complexity
 
-
 # Notes and Tips
 
 ##  1. Don't delete redundant subsets after searching all subsets. 
-
 The time complexity will be very high in some extreme cases. 
 
 Eg: [1,1,1,1,1,1] 
 
 ## 2. Sort list when delete redundant subsets. 
-
 Due to that we don't want redundant subsets, we should use `Arrays.sort()` to sort the given array to gather redundant number. 
 
 ## 3. Don't inverse the condition `i != pos && nums[i] == nums[i - 1]`
-
 We must judge `i != pos` and then `nums[i] == nums[i - 1]`, otherwise there will an error.   
 
 
