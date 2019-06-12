@@ -20,7 +20,8 @@ class Solution {
    
        /*
          Coding Style Notation: 
-         If the given array is null, then directly return null;
+         1.Check whether the given string is null.
+         2.Check wehther the given string is empty. 
         */
         if(nums == null || nums.length == 0){
             return result;
