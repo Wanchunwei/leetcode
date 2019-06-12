@@ -9,7 +9,15 @@ class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<Integer> list = new ArrayList<>();
         List<List<Integer>> result = new ArrayList<>();
-        
+   
+       /*
+         Coding Style Notation: 
+         If the given array is null, then directly return null;
+        */
+        if(nums == null || nums.length == 0){
+            return result;
+        }
+
         subsethelper(result, list, nums, 0);
         
         return result;
@@ -39,7 +47,8 @@ class Solution {
 # Better solution 
 Currently Best
 
-# Notes
+# Notes and Tips
+
 
 # Relavent Question
 - [90 Subsets II](https://github.com/Wanchunwei/leetcode/blob/master/notes/SubsetsII.md)
