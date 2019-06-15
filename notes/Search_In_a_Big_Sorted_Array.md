@@ -1,6 +1,11 @@
 # Algorism 
 
 Binary Search 
+Analysis: 
+1. Find the start position s 0, end posotion using multiplication.
+2. The given array can be divided into two parts `Larger than target` and `Smaller than target`. 
+3. The value can split the given array is `target`.
+4. Choose "the relationship of target and nums[mid]" as condition.
 
 # Better solution 
 

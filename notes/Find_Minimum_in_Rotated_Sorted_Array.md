@@ -2,6 +2,12 @@
 
 Binary Search 
 
+Analysis: 
+1. Find the start position is 0, end position is nums.length - 1.
+2. The given array can be divided into two parts, `rotated` and `unrotated`. 
+3. The value can split the given array is `nums[end]` and `nums[start]`.
+4. Choose "the relationship between `nums[mid]` and `nums[end]`" as condition. Because in the special case that no elements rotated, `nums[start]` won't work.
+
 # Better solution 
 
 Currently Best
