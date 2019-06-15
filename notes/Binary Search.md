@@ -22,6 +22,10 @@ Memory Usage: 38.8 MB, less than 99.08% of Java online submissions for Binary Se
 
 3
 
+## Times of Wrong answer:
+
+0
+
 ```java
 class Solution {
     public int search(int[] nums, int target) {
@@ -74,3 +78,4 @@ O(logn)
 
 # Relavent Question
 - [702. Search in a big sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_In_a_Big_Sorted_Array.md)
+- [278. First Bad Version](https://github.com/Wanchunwei/leetcode/blob/master/notes/First_Bad_Version.md)
