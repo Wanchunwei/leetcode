@@ -18,10 +18,6 @@ Memory Usage: 35.8 MB, less than 100.00% of Java online submissions for Search i
 
 18 min 51 seconds
 
-## Times of debugging:
-
-2
-
 ## Times of Wrong answer:
 
 1
@@ -73,9 +69,10 @@ class Solution {
 O(logn)
 
 # Notes and Tips
-1. 
+
 
 # Relavent Question
+- [153 Find Minimum in Rotated Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find_Minimum_in_Rotated_Sorted_Array.md)
 - [704. Binary Search](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Search.md)
 - [702. Search in a big sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_In_a_Big_Sorted_Array.md)
 - [278. First Bad Version](https://github.com/Wanchunwei/leetcode/blob/master/notes/First_Bad_Version.md)
