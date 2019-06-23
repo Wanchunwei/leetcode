@@ -4,7 +4,7 @@ Binary Search
 
 Analysis : 
 
-1. If we want to caculate the area, we must find `left`, `right`, `top` and `bottom` 4 points; 
+1. If we want to caculate the area, we must find left, right, top and bottom 4 points; 
 2. To find the 4 points, the first consideration is Binary Search, which is the best common way to search the target point in an array. 
 3. `The difficulty is that '1' is not continuous when converting 2D to 1D array but Binary Search is based on 1D array, we can not judge when applying Binary Search.`
 So, to apply Binary Search, we need to think about a way to  `deal with the 2D array into 1D and split it into 2 parts ` !!!!!
