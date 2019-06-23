@@ -70,7 +70,7 @@ class Solution {
 }
 ```
 # Time complexity
-O(logn)
+O(logmn)
 
 # Notes and Tips
 Bug1
