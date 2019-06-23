@@ -10,9 +10,9 @@ Currently Best
 
 ## Performans:
 
-Runtime: 10 ms, faster than 99.71% of Java online submissions for First Bad Version.
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Peak Index in a Mountain Array.
 
-Memory Usage: 33.2 MB, less than 100.00% of Java online submissions for First Bad Version.
+Memory Usage: 38.5 MB, less than 99.89% of Java online submissions for Peak Index in a Mountain Array.
 
 ## Time spent: 
 
