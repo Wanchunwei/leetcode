@@ -1,20 +1,20 @@
 # leetcode
 
 ## Subsets
-- [28 Implement_strStr()](https://github.com/Wanchunwei/leetcode/blob/master/notes/Implement_strStr().md)
-- [78 Subsets](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets.md)
-- [90 Subsets II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets_II.md)
+- [Easy - 28 Implement_strStr()](https://github.com/Wanchunwei/leetcode/blob/master/notes/Implement_strStr().md)
+- [Medium - 78 Subsets](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets.md)
+- [Medium - 90 Subsets II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets_II.md)
 
 ## Binary Search
-- [33 Search in Rotated Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_in_Rotated_Sorted_Array.md)
-- [34 Find First and Last Position of Element in Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find_First_and_Last_Position_Of_Element.md)
-- [74 Search a 2D Matrix](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_a_2D_Matrix.md)
-- [81 Search in Rotated Sorted Array_II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_in_Rotated_Sorted_Array_II.md)
-- [153 Find Minimum in Rotated Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find_Minimum_in_Rotated_Sorted_Array.md)
-- [278. First Bad Version](https://github.com/Wanchunwei/leetcode/blob/master/notes/First_Bad_Version.md)
-- [302. Smallest Rectangle Enclosing Black Pixels](https://github.com/Wanchunwei/leetcode/blob/master/notes/Smallest_Rectangle_Enclosing_Black_Pixels.md)
-- [702. Search in a big sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_In_a_Big_Sorted_Array.md)
-- [704. Binary Search](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Search.md)
-- [852  Peak Index in a Mountain Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Peak_Index_in_a_Mountain_Array.md)
-
+- [Medium - 33 Search in Rotated Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_in_Rotated_Sorted_Array.md)
+- [Medium - 34 Find First and Last Position of Element in Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find_First_and_Last_Position_Of_Element.md)
+- [Medium - 74 Search a 2D Matrix](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_a_2D_Matrix.md)
+- [Medium - 81 Search in Rotated Sorted Array_II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_in_Rotated_Sorted_Array_II.md)
+- [Medium - 153 Find Minimum in Rotated Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find_Minimum_in_Rotated_Sorted_Array.md)
+- [Easy - 278. First Bad Version](https://github.com/Wanchunwei/leetcode/blob/master/notes/First_Bad_Version.md)
+- [Hard - 302. Smallest Rectangle Enclosing Black Pixels](https://github.com/Wanchunwei/leetcode/blob/master/notes/Smallest_Rectangle_Enclosing_Black_Pixels.md)
+- [Medium - 702. Search in a big sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_In_a_Big_Sorted_Array.md)
+- [Easy - 704. Binary Search](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Search.md)
+- [Easy - 852. Peak Index in a Mountain Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Peak_Index_in_a_Mountain_Array.md)
+- [Hard - lintcode 437. Copy Books ](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy_Books.md)
 
