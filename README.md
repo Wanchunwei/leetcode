@@ -5,6 +5,10 @@
 - [Medium - 78 Subsets](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets.md)
 - [Medium - 90 Subsets II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets_II.md)
 
+## Sort
+- [Easy - lintcode 463. Merge Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Merge_Sort.md)
+- [Easy - lintcode 463. Quick Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Quick_Sort.md)
+
 ## Binary Search
 - [Medium - 33 Search in Rotated Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_in_Rotated_Sorted_Array.md)
 - [Medium - 34 Find First and Last Position of Element in Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find_First_and_Last_Position_Of_Element.md)
