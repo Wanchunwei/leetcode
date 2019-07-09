@@ -2,6 +2,11 @@
 
 BFS
 
+Analysis:
+1. Find all nodes. 
+2. Create a HashMap to store mapping relationship of original and new Nodes in order to find corresponding nodes when adding edges. 
+3. Add edges to new Graph.
+
 # Better solution 
 
 DFS(Recursion)
@@ -95,3 +100,4 @@ if (!nodes.contains(n)) {
 }
 ```
 2. Take step by step analysis clearly when coding. 
+3. Create a HashMap to mapping original and new nodes. 
