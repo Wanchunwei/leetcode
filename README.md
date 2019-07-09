@@ -23,4 +23,5 @@
 - [Hard - lintcode 437. Copy Books ](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy_Books.md)
 
 ## BFS
-- [Medium - 102. Binary Tree Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Level_Order_Traversal.md)
+- [Medium - 102 Binary Tree Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Level_Order_Traversal.md)
+- [Medium - 216 Graph Valid Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Graph_Valid_Tree.md)
