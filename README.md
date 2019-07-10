@@ -29,6 +29,13 @@ Application :
 3. Go through a graph
 4. Matrix problem
 
+General Implemntation step:
+1. Traverse and collect all the start nodes and push them in a queue. 
+2. while the queue becomes empty:
+   * Poll one node from thw queue each time and find its neighbors.
+   * Push the neighbors (in some conditions) into the queue.
+3. Return.  
+
 - [Medium - 102 Binary Tree Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Level_Order_Traversal.md)
 - [Medium - 133 Clone Graph](https://github.com/Wanchunwei/leetcode/blob/master/notes/Clone_Graph.md)
 - [Medium - 200 Number of Islands](https://github.com/Wanchunwei/leetcode/blob/master/notes/Numbers_Of_Islands.md)
