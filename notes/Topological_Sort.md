@@ -25,6 +25,7 @@ Total runtime: 3204ms
 
 2 - Bug 1, Bug 2
 
+## Solution
 ```java
 /**
  * Definition for Directed graph.

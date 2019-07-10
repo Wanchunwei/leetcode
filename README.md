@@ -24,11 +24,13 @@
 
 ## BFS 
 Application : 
-1. Shortest path problem (especially for the case that each step counts 1)
+1. Shortest path problem (especially for the case that each step counts 1, i.e. Matrix)
 2. Topological sorting 
 3. Go through a graph
+4. Matrix problem
 
 - [Medium - 102 Binary Tree Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Level_Order_Traversal.md)
 - [Medium - 133 Clone Graph](https://github.com/Wanchunwei/leetcode/blob/master/notes/Clone_Graph.md)
+- [Medium - 200 Number of Islands](https://github.com/Wanchunwei/leetcode/blob/master/notes/Numbers_Of_Islands.md)
 - [Medium - 216 Graph Valid Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Graph_Valid_Tree.md)
 - [Medium - lintcode 127 Topological Sorting](https://github.com/Wanchunwei/leetcode/blob/master/notes/Topological_Sort.md)
