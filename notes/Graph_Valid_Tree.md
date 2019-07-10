@@ -73,8 +73,9 @@ class Solution {
 }
 ```
 # Time complexity
-O(n)
+O(V + E)
 
 # Notes and Tips
 1. `Map` implemented with `HashMap()`, `Set` implemented with `HashSet()`, `Queue` implemented with `LinkedList()`,   
 2. HashMap uses `put` method to add an element. 
+3. `Set` use `size()` to get the size of itself.
