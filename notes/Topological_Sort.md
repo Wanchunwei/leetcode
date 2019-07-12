@@ -11,7 +11,7 @@ Analysis:
 
 Currently Best
     
-other solution : DFS(not reconmmend to do so because BFS is more clear and simple)
+other solution : DFS(not recommended becasue BFS is clearer and simpler)
 
 ## Performans:
 
