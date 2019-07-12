@@ -4,8 +4,9 @@ BFS (Topological Sorting)
 
 Analysis: 
 1. Get indegree of all nodes by traversing all nodes and its neighbors in the given ArrayList. - `getIndegree()`
-2. Find start nodes for whose indegree is 0. `getStartNodes()`
-3. From a start node, BFS all nodes, if degree becomes 0, add to array. `bfs()` 
+2. Create edges array for each node. - `getSubCourses()`
+3. Find start nodes for whose indegree is 0. `getStartNodes()`
+4. From a start node, BFS all nodes, if degree becomes 0, add to array. `bfs()` 
 
 # Better solution 
 
