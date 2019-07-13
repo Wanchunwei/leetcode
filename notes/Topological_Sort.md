@@ -1,4 +1,4 @@
-# Algorism 
+# Algorithm 
 
 BFS
 
@@ -11,9 +11,9 @@ Analysis:
 
 Currently Best
     
-other solution : DFS(not recommended becasue BFS is clearer and simpler)
+other solution : DFS(not recommended because BFS is clearer and simpler)
 
-## Performans:
+## Performance:
 
 Total runtime: 3204ms
 
@@ -45,7 +45,7 @@ public class Solution {
         // write your code here
         ArrayList<DirectedGraphNode> results = new ArrayList<>();
         
-        //Bug 1: For normal array like String[], we can use String[].length, but for ArrayList we must use size().
+        //Bug 1: For normal array like String[], we can use String[].length, but for             ArrayList we must use size().
         if (graph.size() == 0 || graph == null) {
             return results;
         }
@@ -75,7 +75,7 @@ public class Solution {
                     set.add(neighbor);
                     indegree.put(neighbor, 1);
                 } else {
-                    //Notation : In java, we can not directly change the value of HashMap. To acheive this, We must reinsert the pair with the same key value.
+                    //Notation : In java, we can not directly change the value of                               HashMap. To acheive this, We must reinsert the pair with the same                         key value.
                     indegree.put(neighbor, indegree.get(neighbor) + 1);
                 }
             }
