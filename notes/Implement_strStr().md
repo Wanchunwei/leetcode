@@ -1,4 +1,4 @@
-# Algorism 
+# Algorithm 
 
 Rabin Karp
 

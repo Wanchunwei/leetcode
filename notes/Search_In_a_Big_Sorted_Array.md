@@ -1,4 +1,4 @@
-# Algorism 
+# Algorithm 
 
 Binary Search 
 Analysis: 

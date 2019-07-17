@@ -1,4 +1,4 @@
-# Algorism 
+# Algorithm 
 
 Binary Search 
 
@@ -89,9 +89,9 @@ O(logn)
 1. 3 initialization method of java array: 
 
            int[] array = { 1, 2, 3, 4 };
-
+    
            int[] array1 = new int[] { 1, 2, 3, 4 };
-
+    
            int[] array = new int[3]; (Can not be used with method 1 and 2)
 
 # Relavent Question
