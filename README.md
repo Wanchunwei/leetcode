@@ -19,10 +19,11 @@
 - [Hard - 302 Smallest Rectangle Enclosing Black Pixels](https://github.com/Wanchunwei/leetcode/blob/master/notes/Smallest_Rectangle_Enclosing_Black_Pixels.md)
 - [Hard - 644 Maximum_Average_Subarray_II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum_Average_Subarray_II.md)
 - [Medium - 658 Find K Closest Elements](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find_K_Closest_Elements.md)
-- [Medium - 702. Search in a big sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_In_a_Big_Sorted_Array.md)
-- [Easy - 704. Binary Search](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Search.md)
-- [Easy - 852. Peak Index in a Mountain Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Peak_Index_in_a_Mountain_Array.md)
-- [Hard - lintcode 437. Copy Books ](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy_Books.md)
+- [Medium - 702 Search in a big sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_In_a_Big_Sorted_Array.md)
+- [Easy - 704 Binary Search](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Search.md)
+- [Easy - 852 Peak Index in a Mountain Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Peak_Index_in_a_Mountain_Array.md)
+- [Hard -  Lintcode183 Wood Cut](https://github.com/Wanchunwei/leetcode/blob/master/notes/Wood_Cut.md)
+- [Hard - Lintcode 437. Copy Books ](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy_Books.md)
 
 ## BFS 
 Application :
@@ -32,7 +33,7 @@ Application :
 3. Go through a graph
 4. Matrix problem
 
-General Implemntation step:
+General Implementation step:
 1. Traverse and collect all the start nodes and push them in a queue. 
 2. while the queue becomes empty:
    * Poll one node from the queue each time and find its neighbors.
