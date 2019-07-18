@@ -36,9 +36,9 @@ Application :
 
 General Implementation step:
 1. Traverse and collect all the start nodes and push them in a queue. 
-2. while the queue becomes empty:
+2. while the queue becomes empty (Add extra Set if needed):
    * Poll one node from the queue each time and find its neighbors.
-   * Push the neighbors (in some conditions) into the queue.
+   * (if Set does not contains neighbors)Push the neighbors (in some conditions) into the queue.
 3. Return.  
 
 - [Medium - 102 Binary Tree Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Level_Order_Traversal.md)
@@ -48,4 +48,5 @@ General Implementation step:
 - [Medium - 207 Course Schedule](https://github.com/Wanchunwei/leetcode/blob/master/notes/Course_Schedule.md)
 - [Medium - 210 Course Schedule II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Course_Schedule_II.md)
 - [Medium - 216 Graph Valid Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Graph_Valid_Tree.md)
+- [Medium - 909 Snakes and Ladders](https://github.com/Wanchunwei/leetcode/blob/master/notes/Snakes_and_Ladders.md)
 - [Medium - lintcode 127 Topological Sorting](https://github.com/Wanchunwei/leetcode/blob/master/notes/Topological_Sort.md)
