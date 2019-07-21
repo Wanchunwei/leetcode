@@ -1,6 +1,6 @@
 # Algoritm
 
-
+BFS
 
 # Better solution 
 
