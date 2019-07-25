@@ -4,7 +4,73 @@ BFS
 
 # Better solution 
 
-Bidirection BFS
+BFS (with HashMap) (O(MN)) 
+
+Time Spent : 29 min
+
+```java
+class Solution {
+    public int ladderLength(String beginWord, String endWord, List<String>                                                                     wordList) {
+        if (wordList == null || wordList.size() == 0 ||                                                         !wordList.contains(endWord)) {            
+            return 0;
+        }
+        
+        Map<String, ArrayList<String>> map = new HashMap<>();
+        for (int i = 0; i < wordList.size(); i++) {
+            for (int j = 0; j < wordList.get(i).length(); j++) {
+                String newWord = wordList.get(i).substring(0, j) + "*" +                                          wordList.get(i).substring(j + 1,                                                wordList.get(i).length());
+                if (map.containsKey(newWord)) {
+                    ArrayList<String> neighbor = map.get(newWord);
+                    neighbor.add(wordList.get(i));
+                    map.put(newWord, neighbor);
+                } else {
+                    ArrayList<String> neighbor = new ArrayList<String>();
+                    neighbor.add(wordList.get(i));
+                    map.put(newWord, neighbor);
+                }
+            }
+        }
+        
+        Queue<String> queue = new LinkedList<>();
+        Set<String> set = new HashSet<>();
+        int level = 1;
+        
+        queue.offer(beginWord);
+        set.add(beginWord);
+        
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int j = 0; j < size; j++) {
+                String node = queue.poll();
+                for (int i = 0; i < node.length(); i++) {
+                    String mapWord =  node.substring(0, i) + "*" +                                                     node.substring(i + 1, node.length());
+                    if (!map.containsKey(mapWord)) {
+                    	continue;
+                	}
+                
+                	for (String neighbor : map.get(mapWord)) {
+                    	if (neighbor.equals(endWord)) {
+                        	return ++level;
+                   		}
+                    
+                    	if (!set.contains(neighbor)) {
+                        	queue.offer(neighbor);
+                        	set.add(neighbor);
+                    	}
+                	}
+            	}
+          	}
+            level++;
+        }
+        
+        return 0;
+    }
+}
+```
+
+# Best Solution:
+
+Bidirection BFS (O(MN))
 
 ```java
 import javafx.util.Pair;
