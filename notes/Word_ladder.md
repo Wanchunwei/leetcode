@@ -1,4 +1,4 @@
-# Algoritm
+# Algorithm
 
 BFS
 
