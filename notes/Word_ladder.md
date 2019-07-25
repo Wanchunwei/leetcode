@@ -73,106 +73,81 @@ class Solution {
 Bidirection BFS (O(MN))
 
 ```java
-import javafx.util.Pair;
-
 class Solution {
-
-  private int L;
-  private HashMap<String, ArrayList<String>> allComboDict;
-
-  Solution() {
-    this.L = 0;
-
-    // Dictionary to hold combination of words that can be formed,
-    // from any given word. By changing one letter at a time.
-    this.allComboDict = new HashMap<String, ArrayList<String>>();
-  }
-
-  private int visitWordNode(
-      Queue<Pair<String, Integer>> Q,
-      HashMap<String, Integer> visited,
-      HashMap<String, Integer> othersVisited) {
-    Pair<String, Integer> node = Q.remove();
-    String word = node.getKey();
-    int level = node.getValue();
-
-    for (int i = 0; i < this.L; i++) {
-
-      // Intermediate words for current word
-      String newWord = word.substring(0, i) + '*' + word.substring(i + 1, L);
-
-      // Next states are all the words which share the same intermediate state.
-      for (String adjacentWord : this.allComboDict.getOrDefault(newWord, new ArrayList<String>())) {
-        // If at any point if we find what we are looking for
-        // i.e. the end word - we can return with the answer.
-        if (othersVisited.containsKey(adjacentWord)) {
-          return level + othersVisited.get(adjacentWord);
+    public int ladderLength(String beginWord, String endWord, List<String> 																	  wordList) {
+        if (wordList == null || wordList.size() == 0 || 									!wordList.contains(endWord)) {
+            return 0;
         }
-
-        if (!visited.containsKey(adjacentWord)) {
-
-          // Save the level as the value of the dictionary, to save number of hops.
-          visited.put(adjacentWord, level + 1);
-          Q.add(new Pair(adjacentWord, level + 1));
+        
+        Map<String, ArrayList<String>> map = new HashMap<>();
+        for (int i = 0; i < wordList.size(); i++) {
+            for (int j = 0; j < wordList.get(i).length(); j++) {
+                String newWord = wordList.get(i).substring(0, j) + "*" +                                          wordList.get(i).substring(j + 1, 												 wordList.get(i).length());
+                if (map.containsKey(newWord)) {
+                    ArrayList<String> neighbor = map.get(newWord);
+                    neighbor.add(wordList.get(i));
+                    map.put(newWord, neighbor);
+                } else {
+                    ArrayList<String> neighbor = new ArrayList<String>();
+                    neighbor.add(wordList.get(i));
+                    map.put(newWord, neighbor);
+                }
+            }
         }
-      }
-    }
-    return -1;
-  }
+        
+        Queue<String> queueBegin = new LinkedList<>();
+        Queue<String> queueEnd = new LinkedList<>();
+        Set<String> setBegin = new HashSet<>();
+        Set<String> setEnd = new HashSet<>();
+        
+        int level = 2;
 
-  public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-
-    if (!wordList.contains(endWord)) {
-      return 0;
-    }
-
-    // Since all words are of same length.
-    this.L = beginWord.length();
-
-    wordList.forEach(
-        word -> {
-          for (int i = 0; i < L; i++) {
-            // Key is the generic word
-            // Value is a list of words which have the same intermediate generic word.
-            String newWord = word.substring(0, i) + '*' + word.substring(i + 1, L);
-            ArrayList<String> transformations =
-                this.allComboDict.getOrDefault(newWord, new ArrayList<String>());
-            transformations.add(word);
-            this.allComboDict.put(newWord, transformations);
+        
+        queueBegin.offer(beginWord);
+        setBegin.add(beginWord);
+        queueEnd.offer(endWord);
+        setEnd.add(endWord);
+        
+        Queue<String> queue = null;
+        Set<String> setCur = null, setOp = null;
+        while (!queueBegin.isEmpty() && !queueEnd.isEmpty()) {
+            //Notation : Create reference collections to refer when doing                                bidirection BFS 
+            if (queueBegin.size() <= queueEnd.size()) {
+                queue = queueBegin;
+                setCur = setBegin;
+                setOp = setEnd;
+            } else {
+                queue = queueEnd;
+                setCur = setEnd;
+                setOp = setBegin;
+            }
+            
+            int size = queue.size();
+            for (int j = 0; j < size; j++) {
+            	String node = queue.poll();
+           	 	for (int i = 0; i < node.length(); i++) {
+                	String mapWord =  node.substring(0, i) + "*" +                                                     node.substring(i + 1, node.length());
+                	if (!map.containsKey(mapWord)) {
+                    	continue;
+                	}
+                
+                	for (String neighbor : map.get(mapWord)) {
+                    	if (setOp.contains(neighbor)) {
+                        	return level;
+                    	}
+                    
+                    	if (!setCur.contains(neighbor)) {
+                        	queue.offer(neighbor);
+                        	setCur.add(neighbor);
+                    	}
+                	}
+            	}
           }
-        });
-
-    // Queues for birdirectional BFS
-    // BFS starting from beginWord
-    Queue<Pair<String, Integer>> Q_begin = new LinkedList<Pair<String, Integer>>();
-    // BFS starting from endWord
-    Queue<Pair<String, Integer>> Q_end = new LinkedList<Pair<String, Integer>>();
-    Q_begin.add(new Pair(beginWord, 1));
-    Q_end.add(new Pair(endWord, 1));
-
-    // Visited to make sure we don't repeat processing same word.
-    HashMap<String, Integer> visitedBegin = new HashMap<String, Integer>();
-    HashMap<String, Integer> visitedEnd = new HashMap<String, Integer>();
-    visitedBegin.put(beginWord, 1);
-    visitedEnd.put(endWord, 1);
-
-    while (!Q_begin.isEmpty() && !Q_end.isEmpty()) {
-
-      // One hop from begin word
-      int ans = visitWordNode(Q_begin, visitedBegin, visitedEnd);
-      if (ans > -1) {
-        return ans;
-      }
-
-      // One hop from end word
-      ans = visitWordNode(Q_end, visitedEnd, visitedBegin);
-      if (ans > -1) {
-        return ans;
-      }
+          level++;
+        }
+        
+        return 0;
     }
-
-    return 0;
-  }
 }
 ```
 
@@ -244,6 +219,23 @@ class Solution {
 
 # Time complexity
 
-
+O(MN^2)
 
 # Notes and Tips
+
+1. `substring(start, end)` method 
+
+   returns `substring[start, end)` if `start < end`
+
+   returns `""` if `start == end`, 
+
+   returns `substring(end, start)` if  `start > end`
+
+2. `Map.getOrDefault(key, value)` method (JDK 8 new method)
+
+   returns `Map.get(key)`if `Map.contains(key)`
+
+   returns `value` if `!Map.contains(key)`
+
+3. `Set<>, Queue<> and List<> are Objects that can be references`
+
