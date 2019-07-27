@@ -30,13 +30,13 @@ class Solution {
         }
         
         int nums = 0;
-        //Bug 1 : Remember to indicate generic when initializing List[],                           otherwise "for (Integer neighbor : graph[current])" can only                     read it as an Object(not integer)
+        //Bug 1 : Remember to indicate generic when initializing List[], otherwise "for (Integer neighbor : graph[current])" can only read it as an Object(not integer)
         List<Integer>[] graph = new ArrayList[n];
         for (int i = 0; i < n; i++) {
             graph[i] = new ArrayList<Integer>();
         }
         
-        //Bug 2 : Remember to add both nodes to neighbors of each other in                         a undirect graph 
+        //Bug 2 : Remember to add both nodes to neighbors of each other in a undirect graph 
         for (int i = 0; i < edges.length; i++) {
             graph[edges[i][0]].add(edges[i][1]);   
             graph[edges[i][1]].add(edges[i][0]);  

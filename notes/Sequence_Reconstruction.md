@@ -33,7 +33,7 @@ class Solution {
         Queue<Integer> queue = new LinkedList<>();
         Set<Integer> set = new HashSet<>();
         
-        //Notation : For each array operation, carefully take attention to                                    indexOutofBound protect graph[i] = new ArrayList<Integer>();
+        //Notation : For each array operation, carefully take attention to indexOutofBound protect graph[i] = new ArrayList<Integer>();
         int[] indegree = new int[org.length + 1];
         ArrayList<Integer>[] graph = new ArrayList[org.length + 1];
         
@@ -43,13 +43,13 @@ class Solution {
         
         for (List<Integer> seq : seqs) {
             cnt += seq.size();
-            //Notation : For each array operation, carefully take attention to                                    indexOutofBound, protect indegree[seq.get(i)], incase that                                seq.get(i) < 0
+            //Notation : For each array operation, carefully take attention to indexOutofBound, protect indegree[seq.get(i)], incase that seq.get(i) < 0
             if (seq.size() > org.length) {
                 return false;
             }
             
             for (int i = 0; i < seq.size(); i++) {
-                //Notation : For each array operation, carefully take attention to                                    indexOutofBound, protect graph[seq.get(i)]
+                //Notation : For each array operation, carefully take attention to indexOutofBound, protect graph[seq.get(i)]
                 if (seq.get(i) > org.length) {
                     return false;
                 }

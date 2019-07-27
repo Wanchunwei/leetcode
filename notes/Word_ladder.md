@@ -111,7 +111,7 @@ class Solution {
         Queue<String> queue = null;
         Set<String> setCur = null, setOp = null;
         while (!queueBegin.isEmpty() && !queueEnd.isEmpty()) {
-            //Notation : Create reference collections to refer when doing                                bidirection BFS 
+            //Notation : Create reference collections to refer when doing bidirection BFS 
             if (queueBegin.size() <= queueEnd.size()) {
                 queue = queueBegin;
                 setCur = setBegin;
