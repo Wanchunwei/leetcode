@@ -48,6 +48,7 @@ General Implementation step:
 - [Medium - 207 Course Schedule](https://github.com/Wanchunwei/leetcode/blob/master/notes/Course_Schedule.md)
 - [Medium - 210 Course Schedule II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Course_Schedule_II.md)
 - [Medium - 216 Graph Valid Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Graph_Valid_Tree.md)
+- [Medium - 323 Number of Connected Components in an Undirected Graph](https://github.com/Wanchunwei/leetcode/blob/master/notes/Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.md)
 - [Medium - 444 Sequence Reconstruction](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sequence_Reconstruction.md)
 - [Medium - 909 Snakes and Ladders](https://github.com/Wanchunwei/leetcode/blob/master/notes/Snakes_and_Ladders.md)
 - [Medium - 1091 Shortest Path In Binary Matrix](https://github.com/Wanchunwei/leetcode/blob/master/notes/Shortest_Path_In_Binary_Matrix.md)
