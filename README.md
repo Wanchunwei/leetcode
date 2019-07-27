@@ -36,10 +36,11 @@ Application :
 
 General Implementation step:
 1. Traverse and collect all the start nodes and push them in a queue. 
-2. while the queue becomes empty (Add extra Set if needed):
+2. Construct corresponding graph with given edges.
+3. while the queue becomes empty (Add extra Set if needed):
    * Poll one node from the queue each time and find its neighbors.
    * (if Set does not contains neighbors)Push the neighbors (in some conditions) into the queue.
-3. Return.  
+4. Return.  
 
 - [Medium - 102 Binary Tree Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Level_Order_Traversal.md)
 - [Medium - 103 Binary Tree Zigzag Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Zigzag_Level_Order_Traversal.md)
