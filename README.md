@@ -54,3 +54,6 @@ General Implementation step:
 - [Medium - 909 Snakes and Ladders](https://github.com/Wanchunwei/leetcode/blob/master/notes/Snakes_and_Ladders.md)
 - [Medium - 1091 Shortest Path In Binary Matrix](https://github.com/Wanchunwei/leetcode/blob/master/notes/Shortest_Path_In_Binary_Matrix.md)
 - [Medium - lintcode 127 Topological Sorting](https://github.com/Wanchunwei/leetcode/blob/master/notes/Topological_Sort.md)
+
+## Binary Tree and Divide Conquer
+
