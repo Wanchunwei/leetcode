@@ -27,14 +27,15 @@
 - [Hard - Lintcode 437. Copy Books ](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy_Books.md)
 
 ## BFS 
-Application :
+**Application :**
 
 1. Shortest path problem (especially for the case that each step counts 1, i.e. Matrix)
 2. Topological sorting 
 3. Go through a graph
 4. Matrix problem
 
-General Implementation step:
+**General Implementation step:**
+
 1. Traverse and collect all the start nodes and push them in a queue. 
 2. Construct corresponding graph with given edges.
 3. while the queue becomes empty (Add extra Set if needed):
@@ -58,4 +59,3 @@ General Implementation step:
 ## Binary Tree and Divide Conquer
 
 - [Medium - 1120 Maximum Average Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum Average Subtree.md)
-
