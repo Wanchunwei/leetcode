@@ -59,3 +59,5 @@
 ## Binary Tree and Divide Conquer
 
 - [Medium - 1120 Maximum Average Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum Average Subtree.md)
+- [Easy - lintcode 596 Minimum Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Subtree.md)
+
