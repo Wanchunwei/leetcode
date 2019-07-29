@@ -57,3 +57,5 @@ General Implementation step:
 
 ## Binary Tree and Divide Conquer
 
+- [Medium - 1120 Maximum Average Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum Average Subtree.md)
+
