@@ -63,5 +63,4 @@
 - [Medium - 1120 Maximum Average Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum Average Subtree.md)
 - [Easy - lintcode 376 Binary Tree Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Path%20Sum.md)
 - [Easy - lintcode 480 Binary Tree Paths](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Paths.md)
-- [Easy - lintcode 596 Minimum Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Subtree.md)
-
+- [Easy - lintcode 596 Minimum Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Subtree.md) 
