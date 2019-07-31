@@ -58,6 +58,12 @@
 
 ## Binary Tree and Divide Conquer
 
+Dealing with corner case:
+
+1. 4 cases when merging :  root , root with left, root with right, root with left and right. 
+2. root == null (especially, take extra care of the original root is null)
+3. leaf node can only be `root.left == null && root.right == null`
+
 - [Easy - 110 Balanced Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Balanced%20Binary%20Tree.md)
 
 - [Hard - 124 Binary Tree Maximum Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Maximum%20Path%20Sum.md)
