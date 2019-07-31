@@ -43,6 +43,8 @@
    * (if Set does not contains neighbors)Push the neighbors (in some conditions) into the queue.
 4. Return.  
 
+
+
 - [Medium - 102 Binary Tree Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Level_Order_Traversal.md)
 - [Medium - 103 Binary Tree Zigzag Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Zigzag_Level_Order_Traversal.md)
 - [Medium - 133 Clone Graph](https://github.com/Wanchunwei/leetcode/blob/master/notes/Clone_Graph.md)
@@ -78,12 +80,12 @@
 **Common corner case:**
 
 1. 4 cases when merging :  root , root with left, root with right, root with left and right. 
-
 2. root == null (especially, take extra care of the original root is null)
-
 3. leaf node can only be `root.left == null && root.right == null`
 
-   
+
+
+
 
 - [Easy - 110 Balanced Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Balanced%20Binary%20Tree.md)
 - [Easy - 111 Minimum Depth of Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Depth%20of%20Binary%20Tree.md)
