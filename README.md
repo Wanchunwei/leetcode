@@ -58,11 +58,32 @@
 
 ## Binary Tree and Divide Conquer
 
-Dealing with corner case:
+**General Implementation step:**
+
+1. Set a global value if we need to find the max(min) value in Binary Tree.
+
+2. Set divide conquer rule : 
+
+   - What should we calculate for each node?
+   - To achieve this, what value should we get from the return value of `root.left` and `root.right`?
+   - How many possible cases `root.left` and `root.right` have  (i.e. : common cases illustrated below)
+   - What is the corresponding value for those cases? How to deal with those cases to write clearest code for if..else.. condition.
+
+3. Dealing with return statement like `root == null`
+
+4. Return result in main function.
+
+   
+
+**Common corner case:**
 
 1. 4 cases when merging :  root , root with left, root with right, root with left and right. 
+
 2. root == null (especially, take extra care of the original root is null)
+
 3. leaf node can only be `root.left == null && root.right == null`
+
+   
 
 - [Easy - 110 Balanced Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Balanced%20Binary%20Tree.md)
 - [Easy - 111 Minimum Depth of Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Depth%20of%20Binary%20Tree.md)
@@ -71,6 +92,7 @@ Dealing with corner case:
 - [Medium - 236 Lowest Common Ancestor of a Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 
 - [Medium - 298 Binary Tree Longest Consecutive Sequence](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Longest%20Consecutive%20Sequence.md)
+- [Medium - 549 BInary Tree Longest Consecutive Sequence II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Longest%20Consecutive%20Sequence%20II.md)
 - [Easy - 559 Maximum Depth of N-ary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Depth%20of%20N-ary%20Tree.md)
 - [Medium - 1120 Maximum Average Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Average%20Subtree.md)
 
