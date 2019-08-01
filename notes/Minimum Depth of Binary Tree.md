@@ -64,4 +64,3 @@ O(n)
 # Note and tips
 
 1. Carefully when encountering leaf node, which stand for  `root.left == null && root.right == null`
-
