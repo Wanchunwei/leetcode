@@ -6,6 +6,48 @@ Divide conquer
 
 Currently Best
 
+Simpler and clearer solution:
+
+```java
+class Solution {
+    int sum = 0;
+    Map<Integer, Integer> tree = new HashMap<>();
+    
+    public int pathSum(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        
+        for (int num : nums) {
+            int key = num / 10;
+            int value = num % 10;
+            tree.put(key, value);
+        }
+        
+        traverse(nums[0] / 10, 0);
+        
+        return sum;
+    }
+    
+    private void traverse(int root, int preSum) {
+        int level = root / 10;
+        int pos = root % 10;
+        int left = (level + 1) * 10 + pos * 2 - 1;
+        int right = (level + 1) * 10 + pos * 2;
+        
+        int curSum = preSum + tree.get(root);
+        
+        if (!tree.containsKey(left) && !tree.containsKey(right)) {
+            sum += curSum;
+            return;
+        }
+        
+        if (tree.containsKey(left)) traverse(left, curSum);
+        if (tree.containsKey(right)) traverse(right, curSum);
+    }
+}
+```
+
+
+
 ## Performance:
 
 Runtime: 1 ms, faster than 96.63% of Java online submissions for Path Sum IV.
