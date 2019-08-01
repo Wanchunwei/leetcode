@@ -1,41 +1,16 @@
 # Algorithm 
 
-BFS
+Divide conquer
 
 # Better solution
 
-Divide conquer (Just remember as a template)
-
-```java
-public class Codec {
-    public String serialize(TreeNode root) {
-        if (root == null) return "#";
-        return root.val + "," + serialize(root.left) + "," + serialize(root.right);
-    }
-
-    public TreeNode deserialize(String data) {
-        Queue<String> queue = new LinkedList<>(Arrays.asList(data.split(",")));
-        return helper(queue);
-    }
-    
-    private TreeNode helper(Queue<String> queue) {
-        String s = queue.poll();
-        if (s.equals("#")) return null;
-        TreeNode root = new TreeNode(Integer.valueOf(s));
-        root.left = helper(queue);
-        root.right = helper(queue);
-        return root;
-    }
-}
-```
-
-
+Currently Best
 
 ## Performance:
 
-Total runtime 1849 ms
+Runtime: 1 ms, faster than 50.72% of Java online submissions for Flatten Binary Tree to Linked List.
 
-Your submission beats 9.80% Submissions!
+Memory Usage: 38.2 MB, less than 52.18% of Java online submissions for Flatten Binary Tree to Linked List.
 
 ## Time spent:
 
