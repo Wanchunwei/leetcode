@@ -48,7 +48,6 @@
 - [Medium - 102 Binary Tree Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Level_Order_Traversal.md)
 - [Medium - 103 Binary Tree Zigzag Level Order Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Tree_Zigzag_Level_Order_Traversal.md)
 - [Medium - 133 Clone Graph](https://github.com/Wanchunwei/leetcode/blob/master/notes/Clone_Graph.md)
-- [Hard - 145 Biary Tree Postorder Traversal(Iterative)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Postorder%20Traversal.md) --- (Template need to remember)
 - [Medium - 200 Number of Islands](https://github.com/Wanchunwei/leetcode/blob/master/notes/Numbers_Of_Islands.md)
 - [Medium - 207 Course Schedule](https://github.com/Wanchunwei/leetcode/blob/master/notes/Course_Schedule.md)
 - [Medium - 210 Course Schedule II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Course_Schedule_II.md)
@@ -82,17 +81,20 @@
 **Common corner case:**
 
 1. 4 cases when merging :  root , root with left, root with right, root with left and right. 
+
 2. root == null (especially, take extra care of the original root is null)
+
 3. leaf node can only be `root.left == null && root.right == null`
 
-
+   
 
 - [Easy - 110 Balanced Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Balanced%20Binary%20Tree.md)
 - [Easy - 111 Minimum Depth of Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Depth%20of%20Binary%20Tree.md)
 - [Easy - 112 Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Path%20Sum.md)
 - [Medium - 114 Flatten Binary Tree to Linked List](https://github.com/Wanchunwei/leetcode/blob/master/notes/Flatten%20Binary%20Tree%20to%20Linked%20List.md)
 - [Hard - 124 Binary Tree Maximum Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Maximum%20Path%20Sum.md)
-- [Medium - 144 Binary Tree Preorder Traversal](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Inorder%20Traversal.md)
+- [Medium - 144 Binary Tree Preorder Traversal(iterative)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Inorder%20Traversal.md) --- (Template need to remember)
+- [Hard - 145 Biary Tree Postorder Traversal(Iterative)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Postorder%20Traversal.md) --- (Template need to remember)
 - [Medium - 236 Lowest Common Ancestor of a Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 - [Hard - 297 Serialize and Deserialize Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Serialize%20and%20Deserialize%20Binary%20Tree.md)
 - [Medium - 298 Binary Tree Longest Consecutive Sequence](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Longest%20Consecutive%20Sequence.md)
