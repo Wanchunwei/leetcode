@@ -117,5 +117,6 @@
 - [Medium - 39 Combination Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Combination%20Sum.md)
 - [Medium - 40 Combination Sum II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Combination%20Sum%20II.md)
 - [Medium - 46 Permutations](https://github.com/Wanchunwei/leetcode/blob/master/notes/Permutations.md)
+- [Medium - 47 Permutations II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Permutations%20II.md)
 - [Medium - 131 Palindrome Partitioning](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindrome%20Partitioning.md)
 - [Medium - 216 Combination Sum III](https://github.com/Wanchunwei/leetcode/blob/master/notes/Combination%20Sum%20III.md)
