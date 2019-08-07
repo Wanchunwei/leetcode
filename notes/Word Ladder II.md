@@ -6,7 +6,7 @@ DFS + BFS
 
 Analysis : 
 
-1. First applying BFS to find the minimum distance between `beginWord` and `endWord`. ---- (Word Ladder Solved)
+1. First applying BFS to find the minimum distance between `beginWord` and `endWord`. ---- (Word Ladder Solved), to avoid time exceed, we also record the distance for each node to `endWord` 
 2. Apply DFS to find all the paths that from `beginWord` to `endWord`,  the distance  between which is minimum distance.
 
 # Better solution
@@ -103,6 +103,7 @@ class Solution {
     
         
         for (int i = 0; i < wordList.size(); i++) {
+            //Notation : Before use get method of Map, remember to make sure this is not a null
             if (distance.get(wordList.get(i)) == null) {
                 continue;
             }
