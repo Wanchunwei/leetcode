@@ -86,7 +86,10 @@
 
 3. leaf node can only be `root.left == null && root.right == null`
 
-   
+
+
+
+- [Medium - 98 Validate Binary Search Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Validate%20Binary%20Search%20Tree.md)
 
 - [Easy - 110 Balanced Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Balanced%20Binary%20Tree.md)
 - [Easy - 111 Minimum Depth of Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Depth%20of%20Binary%20Tree.md)
