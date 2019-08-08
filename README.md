@@ -99,6 +99,7 @@
 - [Medium - 94 Binary Tree Inorder Traversal(iterative)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Inorder%20Traversal.md) --- (Template need to remember)
 - [Medium - 144 Binary Tree Preorder Traversal(iterative)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Preorder%20Traversal.md) --- (Template need to remember)
 - [Hard - 145 Binary Tree Postorder Traversal(iterative)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Postorder%20Traversal.md) --- (Template need to remember)
+- [Medium - 230 Kth Smallest Element in a BST](https://github.com/Wanchunwei/leetcode/blob/master/notes/Kth%20Smallest%20Element%20in%20a%20BST.md)
 - [Medium - 236 Lowest Common Ancestor of a Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 - [Medium - 285 Inorder Successor in BST](https://github.com/Wanchunwei/leetcode/blob/master/notes/Inorder%20Successor%20in%20BST.md)
 - [Hard - 297 Serialize and Deserialize Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Serialize%20and%20Deserialize%20Binary%20Tree.md)
