@@ -127,3 +127,4 @@
 - [Medium - 131 Palindrome Partitioning](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindrome%20Partitioning.md)
 - [Medium - 216 Combination Sum III](https://github.com/Wanchunwei/leetcode/blob/master/notes/Combination%20Sum%20III.md)
 - [Medium - 332 Reconstruct Itinerary](https://github.com/Wanchunwei/leetcode/blob/master/notes/Reconstruct%20Itinerary.md)
+- [Hard - 488 Zuma Game](https://github.com/Wanchunwei/leetcode/blob/master/notes/Zuma%20Game.md)
