@@ -12,6 +12,8 @@ Runtime: 2 ms, faster than 51.99% of Java online submissions for Surrounded Regi
 
 Memory Usage: 40.8 MB, less than 85.71% of Java online submissions for Surrounded Regions.
 
+## Time spent:
+
 19 min 40 seconds
 
 ## Times of Wrong answer:

@@ -30,6 +30,10 @@ Runtime: 9 ms, faster than 35.64% of Java online submissions for Reconstruct Iti
 
 Memory Usage: 41.8 MB, less than 74.63% of Java online submissions for Reconstruct Itinerary.
 
+## Time spent:
+
+28 min 05 seconds
+
 ## Times of Wrong answer:
 
 Bug 1
