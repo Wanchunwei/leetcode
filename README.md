@@ -1,5 +1,9 @@
 # leetcode
 
+## Sequence 
+
+
+
 ## Subsets
 - [Easy - 28 Implement_strStr()](https://github.com/Wanchunwei/leetcode/blob/master/notes/Implement_strStr().md)
 - [Medium - 78 Subsets](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets.md)
