@@ -2,6 +2,12 @@
 
 DFS
 
+
+
+**This problem can not use BFS, because we need to change status of both `board` and `hand` each step (can not do backtracking). BFS can only solve problems that does not need backtracking. **
+
+
+
 Key Points  for my solution:
 
 1. If i = 0, then the only choice is to insert character `board.charAt(i)`
@@ -171,5 +177,5 @@ private String removeConsecutive(String board) {
 }
 ```
 
-
+3. **This problem can not use BFS, because we need to change status of both `board` and `hand` each step (can not do backtracking). BFS can only solve problems that does not need backtracking. **
 
