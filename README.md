@@ -55,6 +55,7 @@
 - [Hard - 297 Serialize and Deserialize Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Serialize%20and%20Deserialize%20Binary%20Tree.md)
 - [Medium - 323 Number of Connected Components in an Undirected Graph](https://github.com/Wanchunwei/leetcode/blob/master/notes/Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.md)
 - [Medium - 444 Sequence Reconstruction](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sequence_Reconstruction.md)
+- [Medium - 529 Minesweeper](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minesweeper.md)
 - [Medium - 909 Snakes and Ladders](https://github.com/Wanchunwei/leetcode/blob/master/notes/Snakes_and_Ladders.md)
 - [Medium - 1091 Shortest Path In Binary Matrix](https://github.com/Wanchunwei/leetcode/blob/master/notes/Shortest_Path_In_Binary_Matrix.md)
 - [Medium - lintcode 127 Topological Sorting](https://github.com/Wanchunwei/leetcode/blob/master/notes/Topological_Sort.md)
