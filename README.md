@@ -2,6 +2,10 @@
 
 ## Sequence 
 
+**General Method :**
+
+​	Two pointer + sliding window 
+
 - [Easy - 121 Best Time to Buy and Sell Stock](https://github.com/Wanchunwei/leetcode/blob/master/notes/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
   )
 
