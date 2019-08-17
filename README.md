@@ -8,8 +8,6 @@
 
 - [Medium - 15 3Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/3Sum.md)
 
-- [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
-
 - [Easy - 121 Best Time to Buy and Sell Stock](https://github.com/Wanchunwei/leetcode/blob/master/notes/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
   )
 
@@ -144,3 +142,9 @@
 - [Medium - 332 Reconstruct Itinerary](https://github.com/Wanchunwei/leetcode/blob/master/notes/Reconstruct%20Itinerary.md)
 - [Hard - 488 Zuma Game](https://github.com/Wanchunwei/leetcode/blob/master/notes/Zuma%20Game.md)
 - [Medium - 490 The Maze](https://github.com/Wanchunwei/leetcode/blob/master/notes/The%20Maze.md)
+
+
+
+## Dynamic Programming
+
+- [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
