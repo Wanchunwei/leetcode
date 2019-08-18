@@ -4,7 +4,27 @@
 
 **General Method :**
 
-​	Two pointer + sliding window 
+​	Two pointers + sliding window 
+
+**General Implementation Steps:**
+
+-  **Two pointers**:  
+
+  1. Two onward pointers 
+  2. One onward pointer + One  backward pointer
+
+  
+
+  **Key Concepts** : 
+
+  Similar to binary search. Try to find a condition that can make pointers keep moving to one direction until they **meet in the middle (onward + backward)** or **meet at the end of the given array (two onward)** 
+
+  
+
+  **Application** :  
+
+  1. Find all results that satisfy some conditions in a given array
+  2. Do particular operation to a given array. 
 
 - [Medium - 15 3Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/3Sum.md)
 
@@ -45,7 +65,7 @@
 3. Go through a graph
 4. Matrix problem
 
-**General Implementation step:**
+**General Implementation Step:**
 
 1. Traverse and collect all the start nodes and push them in a queue. 
 2. Construct corresponding graph with given edges.
