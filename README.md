@@ -24,7 +24,12 @@
   **Application** :  
 
   1. Find all results that satisfy some conditions in a given array
-  2. Do particular operation to a given array. 
+
+  2. Do particular permutation to a given array. 
+
+     
+
+​        **Extension** : 3 pointers (Keep one pointer and do two pointer to the rest of the given array)
 
 - [Medium - 15 3Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/3Sum.md)
 
