@@ -32,7 +32,7 @@
 ​        **Extension** : 3 pointers (Keep one pointer and do two pointer to the rest of the given array)
 
 - [Medium - 15 3Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/3Sum.md)
-
+- [Medium - 75 Sort Colors](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Colors.md)
 - [Easy - 121 Best Time to Buy and Sell Stock](https://github.com/Wanchunwei/leetcode/blob/master/notes/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
   )
 
