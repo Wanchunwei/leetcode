@@ -174,3 +174,4 @@
 ## Dynamic Programming
 
 - [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
+- [Medium - 152 Maximum Product Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Product%20Subarray.md)
