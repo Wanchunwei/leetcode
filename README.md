@@ -8,26 +8,26 @@
 
 **General Implementation Steps:**
 
--  **Two pointers**:  
+​	**Two pointers**:  
 
-  1. Two onward pointers  (sliding window)
-  2. One onward pointer + One  backward pointer
+		1. Two onward pointers  (sliding window)
+  		2. One onward pointer + One  backward pointer
 
-  
 
-  **Key Concepts** : 
 
-  Similar to binary search. Try to find a condition that can make pointers keep moving to one direction until they **meet in the middle (onward + backward)** or **meet at the end of the given array (two onward)** 
+**Key Concepts** : 
 
-  
+Similar to binary search. Try to find a condition that can make pointers keep moving to one direction until they **meet in the middle (onward + backward)** or **meet at the end of the given array (two onward)** 
 
-  **Application** :  
 
-  1. Find all results that satisfy some conditions in a given array
 
-  2. Do particular permutation to a given array. 
+**Application** :  
 
-     
+1. Find all results that satisfy some conditions in a given array
+
+2. Do particular permutation to a given array. 
+
+   
 
 ​        **Extension** : 3 pointers (Keep one pointer and do two pointer to the rest of the given array)
 
@@ -128,9 +128,7 @@
 
 
 
-
 - [Medium - 98 Validate Binary Search Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Validate%20Binary%20Search%20Tree.md)
-
 - [Easy - 110 Balanced Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Balanced%20Binary%20Tree.md)
 - [Easy - 111 Minimum Depth of Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Depth%20of%20Binary%20Tree.md)
 - [Easy - 112 Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Path%20Sum.md)
