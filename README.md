@@ -35,6 +35,7 @@
 - [Medium - 75 Sort Colors](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Colors.md)
 - [Easy - 121 Best Time to Buy and Sell Stock](https://github.com/Wanchunwei/leetcode/blob/master/notes/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
   )
+- [Medium - 1100 Find K-Length Substrings With No Repeated Characters](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters.md)
 - [Lintcode Medium - 143 Sort Colors (rainbow sort)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Color%20II.md)
 
 ## Subsets
