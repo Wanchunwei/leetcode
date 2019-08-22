@@ -4,13 +4,13 @@
 
 **General Method :**
 
-​	Two pointers + sliding window 
+​	Two pointers (sliding window)
 
 **General Implementation Steps:**
 
 -  **Two pointers**:  
 
-  1. Two onward pointers 
+  1. Two onward pointers  (sliding window)
   2. One onward pointer + One  backward pointer
 
   
