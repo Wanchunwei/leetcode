@@ -35,6 +35,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Hard - 76 Minimum Window Substring](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Window%20Substring.md)
 - [Easy - 121 Best Time to Buy and Sell Stock](https://github.com/Wanchunwei/leetcode/blob/master/notes/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
   )
+- [Medium - 424 Longest Repeating Character Replacement](https://github.com/Wanchunwei/leetcode/blob/master/notes/Longest%20Repeating%20Character%20Replacement.md)
 - [Medium - 763 Partition Labels (Sweep - Line + Two pointers)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Partition%20Labels.md)
 - [Medium - 1100 Find K-Length Substrings With No Repeated Characters](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters.md)
 - [Lintcode Medium - 143 Sort Colors (rainbow sort)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Color%20II.md)
