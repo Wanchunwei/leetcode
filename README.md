@@ -16,6 +16,8 @@
 
 Similar to binary search. Try to find a condition that can make pointers keep moving to one direction until they **meet in the middle (onward + backward)** or **meet at the end of the given array (sliding window)** 
 
+**Notation** : Try not to use while loop because it is easy to write bugs. 
+
 **Application** :  
 
 1. Find all results that satisfy some conditions in a given array
@@ -23,7 +25,9 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 
 **Extension** : 3 pointers (Keep one pointer and do two pointer to the rest of the given array)
 
+**Common corner cases **: 
 
+1. end = s.length()
 
 - [Medium - 15 3Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/3Sum.md)
 - [Medium - 16 3Sum closest](https://github.com/Wanchunwei/leetcode/blob/master/notes/3Sum%20closest.md)

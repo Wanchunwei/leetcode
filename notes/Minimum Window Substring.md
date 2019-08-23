@@ -12,7 +12,22 @@ Analysis :
 
 # Better solution
 
-Tips : Using a counter rather than an extra O(k) function to judge whether current substring is a valid substring.  Here we can come up with a **template to solve most substring problem**
+Tips : 
+
+Using a counter and an int array to store characters of the substring 
+
+and do ```map[s_array[end]] --``` to avoid compare of t and the substring. 
+
+```java
+if(map[s_array[end]] > 0) {
+	count--;
+}
+map[s_array[end]] --;
+```
+
+rather than an extra O(k) function to judge whether current substring is a valid substring.  
+
+
 
 ```java
 public String minWindow(String s, String t) {
@@ -57,7 +72,7 @@ public String minWindow(String s, String t) {
 }
 ```
 
-Template : 
+Here we can come up with a **template to solve most substring problem** : 
 
 ```java
 int findSubstring(string s){
@@ -182,3 +197,4 @@ O(nk)
 
 1. Be careful of the corner case that we can not find a substring in String s
 2. Notation : If end is already at the end of String s, and substrin g(start, end) is not a valid answer, then we can break cause that all every substring(index, end) that index > start is not valid.  
+3. **Tips : Using a counter and an int array to store characters of the substring and do ```map[s_array[end]] --``` to avoid compare of t and the substring, which is O(k) time. **
