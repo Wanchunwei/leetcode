@@ -4,6 +4,8 @@ Two pointers
 
 # Better solution
 
+Currently Best
+
 More concise solution : 
 
 ```java
@@ -102,9 +104,9 @@ class Solution {
 
 # Time complexity
 
-O(nk)
+O(n)
 
 # Notes and Tips
 
 1. Be careful with corner case "end = s.length()"
-2. Try not to use while loop becasue it is easy to write bugs
+2. Try not to use while loop because it is easy to write bugs
