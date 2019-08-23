@@ -9,27 +9,23 @@ Currently Best
 More concise solution : 
 
 ```java
-class Solution {
-    public int shortestWay(String source, String target) {
-        int t = 0;
-        int ans = 0;
-        while (t < target.length()) {
-            int pt = t;
-            
-            for (int s = 0; s < source.length(); s++) {
-                if (t < target.length() && source.charAt(s) == target.charAt(t)) {
-                    t++;
-                }
+public int shortestWay(String source, String target) {
+	char[] cs = source.toCharArray(), ts = target.toCharArray();
+	int res = 0;
+	for (int i = 0; i < ts.length; ) {
+		int oriI = i;
+		for (int j = 0; j < cs.length; j++) {
+			if (i < ts.length && cs[j] == ts[i]) {
+                i++;
             }
-            
-            if (t == pt) {
-                return -1;
-            }
-            ans++;
-        }
+		}
         
-        return ans;
-    }
+		if (i == oriI) {
+            return -1;
+        }
+		res++;
+	}
+	return res;
 }
 ```
 
@@ -106,12 +102,20 @@ public int shortestWay(String source, String target) {
 	char[] cs = source.toCharArray(), ts = target.toCharArray();
 	int res = 1;
 	List<Integer>[] idx = new List[26];
-	for (int i = 0; i < 26; i++) idx[i] = new ArrayList<>();
-	for (int i = 0; i < cs.length; i++) idx[cs[i] - 'a'].add(i);
+	for (int i = 0; i < 26; i++) {
+        idx[i] = new ArrayList<>();
+    }
+    
+	for (int i = 0; i < cs.length; i++) {
+        idx[cs[i] - 'a'].add(i);
+    }
+    
 	int j = 0;
 	for (int i = 0; i < ts.length; ) {
 		List<Integer> tar = idx[ts[i] - 'a'];
-		if (tar.isEmpty()) return -1;
+		if (tar.isEmpty()) {
+            return -1;
+        }
 		int k = Collections.binarySearch(tar,j);
 		if (k < 0) k = -k - 1;
 		if (k == tar.size()) {
@@ -133,20 +137,26 @@ public int shortestWay(String source, String target) {
 public int shortestWay(String source, String target) {
 	char[] cs = source.toCharArray(), ts = target.toCharArray();
 	int[][] idx = new int[26][cs.length];
-	for (int i = 0; i < cs.length; i++) idx[cs[i] - 'a'][i] = i + 1;
+	for (int i = 0; i < cs.length; i++) {
+        idx[cs[i] - 'a'][i] = i + 1;
+    }
+    
 	for (int i = 0; i < 26; i++) {
 		for (int j = cs.length - 1, pre = 0; j >= 0; j--) {
 			if (idx[i][j] == 0) idx[i][j] = pre;
 			else pre = idx[i][j];
 		}
 	}
+    
 	int res = 1, j = 0;
 	for (int i = 0; i < ts.length; i++) {
 		if (j == cs.length) {
 			j = 0;
 			res++;
 		}
-		if (idx[ts[i] - 'a'][0] == 0) return -1;
+		if (idx[ts[i] - 'a'][0] == 0) {
+            return -1;
+        }
 		j = idx[ts[i] - 'a'][j];
 		if (j == 0 ) {
 			res++;
@@ -175,7 +185,9 @@ public int shortestWay(String source, String target) {
    			res++;
    		}
    		j = idx[j][ts[i] - 'a'];
-   		if (idx[0][ts[i] - 'a'] == 0) return -1;
+   		if (idx[0][ts[i] - 'a'] == 0) {
+               return -1;
+           }
    		if (j == 0) {
    			res++;
    			i--;
