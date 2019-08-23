@@ -72,6 +72,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
   )
 - [Medium - 424 Longest Repeating Character Replacement](https://github.com/Wanchunwei/leetcode/blob/master/notes/Longest%20Repeating%20Character%20Replacement.md)
 - [Medium - 763 Partition Labels (Sweep - Line + Two pointers)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Partition%20Labels.md)
+- [Medium - 1055 Shortest Way to Form String](https://github.com/Wanchunwei/leetcode/blob/master/notes/Shortest%20Way%20to%20Form%20String.md)
 - [Medium - 1100 Find K-Length Substrings With No Repeated Characters](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters.md)
 - [Lintcode Medium - 143 Sort Colors (rainbow sort)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Color%20II.md)
 
