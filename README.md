@@ -8,32 +8,27 @@
 
 **General Implementation Steps:**
 
-​	**Two pointers**:  
+1. Two onward pointers  (sliding window)
 
-		1. Two onward pointers  (sliding window)
   		2. One onward pointer + One  backward pointer
-
-
 
 **Key Concepts** : 
 
-Similar to binary search. Try to find a condition that can make pointers keep moving to one direction until they **meet in the middle (onward + backward)** or **meet at the end of the given array (two onward)** 
-
-
+Similar to binary search. Try to find a condition that can make pointers keep moving to one direction until they **meet in the middle (onward + backward)** or **meet at the end of the given array (sliding window)** 
 
 **Application** :  
 
 1. Find all results that satisfy some conditions in a given array
-
 2. Do particular permutation to a given array. 
 
-   
+**Extension** : 3 pointers (Keep one pointer and do two pointer to the rest of the given array)
 
-​        **Extension** : 3 pointers (Keep one pointer and do two pointer to the rest of the given array)
+
 
 - [Medium - 15 3Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/3Sum.md)
 - [Medium - 16 3Sum closest](https://github.com/Wanchunwei/leetcode/blob/master/notes/3Sum%20closest.md)
 - [Medium - 75 Sort Colors](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Colors.md)
+- [Hard - 76 Minimum Window Substring](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Window%20Substring.md)
 - [Easy - 121 Best Time to Buy and Sell Stock](https://github.com/Wanchunwei/leetcode/blob/master/notes/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
   )
 - [Medium - 763 Partition Labels (Sweep - Line + Two pointers)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Partition%20Labels.md)
@@ -115,9 +110,8 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 
 3. Dealing with return statement like `root == null`
 
-4. Return result in main function.
+4. Return result in main function
 
-   
 
 **Common corner case:**
 
@@ -126,8 +120,6 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 2. root == null (especially, take extra care of the original root is null)
 
 3. leaf node can only be `root.left == null && root.right == null`
-
-
 
 - [Medium - 98 Validate Binary Search Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Validate%20Binary%20Search%20Tree.md)
 - [Easy - 110 Balanced Binary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Balanced%20Binary%20Tree.md)
