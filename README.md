@@ -6,9 +6,8 @@
 
 ​	Two pointers (sliding window):
 
-1. Two onward pointers  (sliding window)
-
-  		2. One onward pointer + One  backward pointer
+- Two onward pointers  (sliding window) 
+- One onward pointer + One  backward pointer
 
 **General Implementation Steps:**
 
