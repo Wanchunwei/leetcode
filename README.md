@@ -4,13 +4,49 @@
 
 **General Method :**
 
-​	Two pointers (sliding window)
-
-**General Implementation Steps:**
+​	Two pointers (sliding window):
 
 1. Two onward pointers  (sliding window)
 
   		2. One onward pointer + One  backward pointer
+
+**General Implementation Steps:**
+
+1. Use two pointers: start and end to represent a window.
+2. Move end to find a valid window.
+3. When a valid window is found, move start to find a smaller window.
+
+Template :
+
+```java
+int findSubstring(string s){
+        int[] map = new int[256];
+        int counter; // check whether the substring is valid
+        int begin=0, end=0; //two pointers, one point to tail and one  head
+        int d; //the length of substring
+
+        for() { /* initialize the hash map here */ }
+
+        while(end<s.size()){
+
+            if(map[s[end++]]-- ?){  /* modify counter here */ }
+
+            while(/* counter condition */){ 
+                 
+                 /* update d here if finding minimum*/
+
+                //increase begin to make it invalid/valid again
+                
+                if(map[s[begin++]]++ ?){ /*modify counter here*/ }
+            }  
+
+            /* update d here if finding maximum*/
+        }
+        return d;
+  }
+```
+
+
 
 **Key Concepts** : 
 
