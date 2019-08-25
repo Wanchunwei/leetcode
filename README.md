@@ -66,7 +66,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 
 **Extension** : 3 pointers (Keep one pointer and do two pointer to the rest of the given array)
 
-**Common corner cases **: 
+**Common corner cases**: 
 
 1. end = s.length()
 
