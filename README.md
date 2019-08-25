@@ -10,7 +10,7 @@
 
 **General Method :**
 
-​	Two pointers (sliding window):
+Two pointers (sliding window):
 
 - Two onward pointers  (sliding window) 
 - One onward pointer + One  backward pointer
@@ -171,7 +171,6 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 3. Dealing with return statement like `root == null`
 
 4. Return result in main function
-
 
 **Common corner case:**
 
