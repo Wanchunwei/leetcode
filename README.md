@@ -1,10 +1,9 @@
 # Leetcode
 
-## Array and LinkedList
+## Array and Linked List
 
 - [Medium - 24 Swap Nodes in Pairs](https://github.com/Wanchunwei/leetcode/blob/master/notes/Swap%20Nodes%20in%20Pairs.md)
-
-
+- [Hard - 26 Reverse Nodes in k-Group](https://github.com/Wanchunwei/leetcode/blob/master/notes/Reverse%20Nodes%20in%20k-Group.md)
 
 ## Sequence 
 
