@@ -94,6 +94,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Easy - 278 First Bad Version](https://github.com/Wanchunwei/leetcode/blob/master/notes/First_Bad_Version.md)
 - [Hard - 302 Smallest Rectangle Enclosing Black Pixels](https://github.com/Wanchunwei/leetcode/blob/master/notes/Smallest_Rectangle_Enclosing_Black_Pixels.md)
 - [Hard - 410 Split Array Largest Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Split_Array_Largest_Sum.md)
+- [Medium - 547 Friend Circles](https://github.com/Wanchunwei/leetcode/blob/master/notes/Friend%20Circles.md)
 - [Hard - 644 Maximum_Average_Subarray_II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum_Average_Subarray_II.md)
 - [Medium - 658 Find K Closest Elements](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find_K_Closest_Elements.md)
 - [Medium - 702 Search in a big sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_In_a_Big_Sorted_Array.md)
