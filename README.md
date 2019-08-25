@@ -1,5 +1,11 @@
 # Leetcode
 
+## Array and LinkedList
+
+- [Medium - 24 Swap Nodes in Pairs](https://github.com/Wanchunwei/leetcode/blob/master/notes/Swap%20Nodes%20in%20Pairs.md)
+
+
+
 ## Sequence 
 
 **General Method :**
