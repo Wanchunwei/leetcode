@@ -10,7 +10,7 @@
 
 **General Method :**
 
-​	Two pointers (sliding window):
+Two pointers (sliding window):
 
 - Two onward pointers  (sliding window) 
 - One onward pointer + One  backward pointer
@@ -18,7 +18,9 @@
 **General Implementation Steps:**
 
 1. Use two pointers: start and end to represent a window.
+
 2. Move end to find a valid window.
+
 3. When a valid window is found, move start to find a smaller window.
 
 Template :
@@ -62,6 +64,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 **Application** :  
 
 1. Find all results that satisfy some conditions in a given array
+
 2. Do particular permutation to a given array. 
 
 **Extension** : 3 pointers (Keep one pointer and do two pointer to the rest of the given array)
@@ -113,17 +116,25 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 **Application :**
 
 1. Shortest path problem (especially for the case that each step counts 1, i.e. Matrix)
+
 2. Topological sorting 
+
 3. Go through a graph
+
 4. Matrix problem
 
 **General Implementation Step:**
 
 1. Traverse and collect all the start nodes and push them in a queue. 
+
 2. Construct corresponding graph with given edges.
+
 3. while the queue becomes empty (Add extra Set if needed):
-   * Poll one node from the queue each time and find its neighbors.
-   * (if Set does not contains neighbors)Push the neighbors (in some conditions) into the queue.
+
+	* Poll one node from the queue each time and find its neighbors.
+   	
+	* (if Set does not contains neighbors)Push the neighbors (in some conditions) into the queue.
+
 4. Return.  
 
 
@@ -160,7 +171,6 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 3. Dealing with return statement like `root == null`
 
 4. Return result in main function
-
 
 **Common corner case:**
 
