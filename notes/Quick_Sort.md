@@ -1,6 +1,6 @@
 # Algorithm 
 
-Merge Sort
+Two pointers
 
 # Better solution 
 
@@ -36,11 +36,11 @@ public class Solution {
         
         //Notation 2: Use left <= right, rather than left < right to avoid (left == right) and get into stack over flow error in recursion;
         while (left <= right) {
-            while (eft <= right && A[left] < pivot) {
+            while (left <= right && A[left] < pivot) {
                 left++;
             } 
             
-            while (eft <= right && A[right] > pivot) {
+            while (left <= right && A[right] > pivot) {
                 right--;
             }
             //Notaation 3: Must have a "left <= right" condition, otherwise it's possible to swap when right < left

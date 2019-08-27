@@ -80,11 +80,13 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Hard - 76 Minimum Window Substring](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Window%20Substring.md)
 - [Easy - 121 Best Time to Buy and Sell Stock](https://github.com/Wanchunwei/leetcode/blob/master/notes/Best%20Time%20to%20Buy%20and%20Sell%20Stock.md
   )
+- [Easy - 141 Linked List Cycle](https://github.com/Wanchunwei/leetcode/blob/master/notes/Linked%20List%20Cycle.md)
 - [Medium - 424 Longest Repeating Character Replacement](https://github.com/Wanchunwei/leetcode/blob/master/notes/Longest%20Repeating%20Character%20Replacement.md)
 - [Medium - 763 Partition Labels (Sweep - Line + Two pointers)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Partition%20Labels.md)
 - [Medium - 1055 Shortest Way to Form String](https://github.com/Wanchunwei/leetcode/blob/master/notes/Shortest%20Way%20to%20Form%20String.md)
 - [Medium - 1100 Find K-Length Substrings With No Repeated Characters](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters.md)
-- [Lintcode Medium - 143 Sort Colors (rainbow sort)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Color%20II.md)
+- [Medium - Lintcode 143 Sort Colors (rainbow sort)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Color%20II.md)
+- [Easy - Lintcode 463 Quick Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Quick_Sort.md)
 
 ## Subsets
 - [Easy - 28 Implement_strStr()](https://github.com/Wanchunwei/leetcode/blob/master/notes/Implement_strStr().md)
@@ -93,7 +95,6 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 
 ## Sort
 - [Easy - lintcode 463. Merge Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Merge_Sort.md)
-- [Easy - lintcode 463. Quick Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Quick_Sort.md)
 
 ## Binary Search
 - [Medium - 33 Search in Rotated Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_in_Rotated_Sorted_Array.md)
@@ -111,7 +112,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Easy - 704 Binary Search](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary_Search.md)
 - [Easy - 852 Peak Index in a Mountain Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Peak_Index_in_a_Mountain_Array.md)
 - [Hard -  Lintcode183 Wood Cut](https://github.com/Wanchunwei/leetcode/blob/master/notes/Wood_Cut.md)
-- [Hard - Lintcode 437. Copy Books ](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy_Books.md)
+- [Hard - Lintcode 437 Copy Books ](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy_Books.md)
 
 ## BFS 
 **Application :**
@@ -146,7 +147,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Medium - 529 Minesweeper](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minesweeper.md)
 - [Medium - 909 Snakes and Ladders](https://github.com/Wanchunwei/leetcode/blob/master/notes/Snakes_and_Ladders.md)
 - [Medium - 1091 Shortest Path In Binary Matrix](https://github.com/Wanchunwei/leetcode/blob/master/notes/Shortest_Path_In_Binary_Matrix.md)
-- [Medium - lintcode 127 Topological Sorting](https://github.com/Wanchunwei/leetcode/blob/master/notes/Topological_Sort.md)
+- [Medium - Lintcode 127 Topological Sorting](https://github.com/Wanchunwei/leetcode/blob/master/notes/Topological_Sort.md)
 
 ## Binary Tree and Divide Conquer
 
@@ -194,9 +195,9 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Easy - 559 Maximum Depth of N-ary Tree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Depth%20of%20N-ary%20Tree.md)
 - [Medium - 666 Path Sum IV](https://github.com/Wanchunwei/leetcode/blob/master/notes/Path%20Sum%20IV.md)
 - [Medium - 1120 Maximum Average Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Average%20Subtree.md)
-- [Easy - lintcode 376 Binary Tree Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Path%20Sum.md)
-- [Easy - lintcode 480 Binary Tree Paths](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Paths.md)
-- [Easy - lintcode 596 Minimum Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Subtree.md) 
+- [Easy - Lintcode 376 Binary Tree Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Path%20Sum.md)
+- [Easy - Lintcode 480 Binary Tree Paths](https://github.com/Wanchunwei/leetcode/blob/master/notes/Binary%20Tree%20Paths.md)
+- [Easy - Lintcode 596 Minimum Subtree](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Subtree.md) 
 
 
 
