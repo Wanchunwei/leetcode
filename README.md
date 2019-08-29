@@ -87,15 +87,15 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Medium - 1055 Shortest Way to Form String](https://github.com/Wanchunwei/leetcode/blob/master/notes/Shortest%20Way%20to%20Form%20String.md)
 - [Medium - 1100 Find K-Length Substrings With No Repeated Characters](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters.md)
 - [Medium - Lintcode 143 Sort Colors (rainbow sort)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Color%20II.md)
-- [Easy - Lintcode 463 Quick Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Quick_Sort.md)
 
 ## Subsets
 - [Easy - 28 Implement_strStr()](https://github.com/Wanchunwei/leetcode/blob/master/notes/Implement_strStr().md)
 - [Medium - 78 Subsets](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets.md)
 - [Medium - 90 Subsets II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets_II.md)
 
-## Sort
+## Sort(Divide Conquer in Array)
 - [Easy - lintcode 463. Merge Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Merge_Sort.md)
+- [Easy - Lintcode 463 Quick Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Quick_Sort.md)
 
 ## Binary Search
 - [Medium - 33 Search in Rotated Sorted Array](https://github.com/Wanchunwei/leetcode/blob/master/notes/Search_in_Rotated_Sorted_Array.md)
