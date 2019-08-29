@@ -94,6 +94,8 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Medium - 90 Subsets II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets_II.md)
 
 ## Sort(Divide Conquer in Array)
+
+- [Hard 4 Medium of Two Sorted List](https://github.com/Wanchunwei/leetcode/blob/master/notes/Medium%20of%20Two%20Sorted%20List.md)
 - [Easy - lintcode 463. Merge Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Merge_Sort.md)
 - [Easy - Lintcode 463 Quick Sort](https://github.com/Wanchunwei/leetcode/blob/master/notes/Quick_Sort.md)
 
