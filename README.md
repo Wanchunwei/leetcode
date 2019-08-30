@@ -223,8 +223,56 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 
 
 
-## Dynamic Programming
+# Dynamic Programming
 
 - [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
 - [Medium - 131 Palindromic Substrings](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindromic%20Substrings.md)
 - [Medium - 152 Maximum Product Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Product%20Subarray.md)
+
+
+
+# Union Find
+
+**Template:**
+
+```java
+public class ConnectingGraph3 {
+    int father[];
+    int[] size;
+    int count;
+
+    public ConnectingGraph3(int n) {
+        father = new int[n + 1];
+        size = new int[n + 1];
+        count = n;
+        for (int i = 0; i <= n; i++) {
+            father[i] = i;
+            size[i] = 1;
+        }
+    }
+
+    public void connect(int a, int b) {
+        int fatherA = find(a);
+        int fatherB = find(b);
+        if (fatherA != fatherB) {
+            father[fatherA] = fatherB;
+            count--;
+            size[fatherA] += size[fatherB];
+        }
+    }
+
+    public int query(int a) {
+        return count;//Or return size[find(a)];
+    }
+    
+    public int find(int a) {
+        if (father[a] == a) {
+            return a;
+        }
+        
+        return father[a] = find(father[a]);
+    }
+}
+```
+
+- [Hard 305 Number of Islands II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Number%20of%20Islands%20II.md)
