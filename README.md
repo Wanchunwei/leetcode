@@ -275,4 +275,10 @@ public class ConnectingGraph3 {
 }
 ```
 
+**Common corner cases :**
+
+1. We want to create or connect a node but the node is already created in the father array(has father already)
+2. We want to find a node but the node haven't created in the father array
+
 - [Hard 305 Number of Islands II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Number%20of%20Islands%20II.md)
+- [Medium - 990 Satisfiability of Equality Equations](https://github.com/Wanchunwei/leetcode/blob/master/notes/Satisfiability%20of%20Equality%20Equations.md)

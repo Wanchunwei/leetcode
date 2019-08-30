@@ -83,3 +83,4 @@ O(n)
 # Notes and Tips
 
 1.  Corner case that if the character is not initiated in father array  
+2. Tips : The default value for char array when initiated is the character corresponding to ASCII value 0.
