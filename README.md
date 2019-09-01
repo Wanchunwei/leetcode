@@ -89,7 +89,13 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Medium - 1100 Find K-Length Substrings With No Repeated Characters](https://github.com/Wanchunwei/leetcode/blob/master/notes/Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters.md)
 - [Medium - Lintcode 143 Sort Colors (rainbow sort)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20Color%20II.md)
 
-## Subsets
+
+
+# Greedy
+
+- [Medium - 235 Non-overlapping Intervals](https://github.com/Wanchunwei/leetcode/blob/master/notes/Non-overlapping%20Intervals.md)
+
+# Subsets
 - [Easy - 28 Implement_strStr()](https://github.com/Wanchunwei/leetcode/blob/master/notes/Implement_strStr().md)
 - [Medium - 78 Subsets](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets.md)
 - [Medium - 90 Subsets II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subsets_II.md)
