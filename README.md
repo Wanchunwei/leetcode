@@ -93,7 +93,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 
 # Greedy
 
-- [Medium - 235 Non-overlapping Intervals](https://github.com/Wanchunwei/leetcode/blob/master/notes/Non-overlapping%20Intervals.md)
+- [Medium - 435 Non-overlapping Intervals](https://github.com/Wanchunwei/leetcode/blob/master/notes/Non-overlapping%20Intervals.md)
 
 # Subsets
 - [Easy - 28 Implement_strStr()](https://github.com/Wanchunwei/leetcode/blob/master/notes/Implement_strStr().md)
