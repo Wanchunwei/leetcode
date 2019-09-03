@@ -233,6 +233,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 
 - [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
 - [Medium - 131 Palindromic Substrings](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindromic%20Substrings.md)
+- [Medium - 139 Word Break](https://github.com/Wanchunwei/leetcode/blob/master/notes/Word%20Break.md)
 - [Medium - 152 Maximum Product Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Product%20Subarray.md)
 
 
