@@ -221,6 +221,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 - [Hard - 126 Word Ladder II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Word%20Ladder%20II.md)
 - [Medium - 130 Surrounded Regions](https://github.com/Wanchunwei/leetcode/blob/master/notes/Surrounded%20Regions.md)
 - [Medium - 131 Palindrome Partitioning](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindrome%20Partitioning.md)
+- [Hard - 140 Word Break II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Word%20Break%20II.md)
 - [Medium - 216 Combination Sum III](https://github.com/Wanchunwei/leetcode/blob/master/notes/Combination%20Sum%20III.md)
 - [Hard - 301 Remove Invalid Parentheses](https://github.com/Wanchunwei/leetcode/blob/master/notes/Remove%20Invalid%20Parentheses.md)
 - [Medium - 332 Reconstruct Itinerary](https://github.com/Wanchunwei/leetcode/blob/master/notes/Reconstruct%20Itinerary.md)
