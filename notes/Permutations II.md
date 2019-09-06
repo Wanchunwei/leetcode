@@ -51,6 +51,7 @@ class Solution {
         }
         
         for (int i = 0; i < nums.length; i++) {
+            //Notation : Remember to add !visited[i - 1] here, which states that i - 1 is not in temp currently. 
             if (i > 0 && nums[i] == nums[i - 1] && !visited[i - 1]) {
                 continue;
             }
@@ -73,3 +74,4 @@ O(n)
 
 # Note and tips
 
+1. Remember to add !visited[i - 1] here, which states that i - 1 is not in temp currently. 
