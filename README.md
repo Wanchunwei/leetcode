@@ -9,6 +9,7 @@
 - [Medium - 92 Reverse Linked List II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Reverse%20Linked%20List%20II.md)
 - [Medium - 138 Copy List with Random Pointer](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy%20List%20with%20Random%20Pointer.md)
 - [Medium - 148 Sort List](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20List.md)
+- [Medium - Lintcode 42 - Maximum Subarray II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray%20II.md)
 - [Medium - Lintcode - 838 Subarray Sum Equals K](https://github.com/Wanchunwei/leetcode/blob/master/notes/Subarray%20Sum%20Equals%20K.md
   )
 
