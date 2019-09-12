@@ -85,6 +85,7 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
   )
 - [Easy - 141 Linked List Cycle](https://github.com/Wanchunwei/leetcode/blob/master/notes/Linked%20List%20Cycle.md)
 - [Medium - 142 Linked List Cycle II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Linked%20List%20Cycle%20II.md)
+- [Hard - 304 Longest Substring with At Most K Distinct Characters](https://github.com/Wanchunwei/leetcode/blob/master/notes/Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.md)
 - [Medium - 424 Longest Repeating Character Replacement](https://github.com/Wanchunwei/leetcode/blob/master/notes/Longest%20Repeating%20Character%20Replacement.md)
 - [Medium - 567 Permutation in String](https://github.com/Wanchunwei/leetcode/blob/master/notes/Permutation%20in%20String.md)
 - [Medium - 763 Partition Labels (Sweep - Line + Two pointers)](https://github.com/Wanchunwei/leetcode/blob/master/notes/Partition%20Labels.md)
