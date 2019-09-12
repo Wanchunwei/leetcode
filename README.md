@@ -6,6 +6,7 @@
 - [Medium - 24 Swap Nodes in Pairs](https://github.com/Wanchunwei/leetcode/blob/master/notes/Swap%20Nodes%20in%20Pairs.md)
 - [Hard - 26 Reverse Nodes in k-Group](https://github.com/Wanchunwei/leetcode/blob/master/notes/Reverse%20Nodes%20in%20k-Group.md)
 - [Medium - 61 Rotate List](https://github.com/Wanchunwei/leetcode/blob/master/notes/Rotate%20List.md)
+- [Medium - 86 Partition List](https://github.com/Wanchunwei/leetcode/blob/master/notes/Partition%20List.md)
 - [Medium - 92 Reverse Linked List II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Reverse%20Linked%20List%20II.md)
 - [Medium - 138 Copy List with Random Pointer](https://github.com/Wanchunwei/leetcode/blob/master/notes/Copy%20List%20with%20Random%20Pointer.md)
 - [Medium - 148 Sort List](https://github.com/Wanchunwei/leetcode/blob/master/notes/Sort%20List.md)
