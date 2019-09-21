@@ -237,7 +237,21 @@ Similar to binary search. Try to find a condition that can make pointers keep mo
 
 # Dynamic Programming
 
-Dynamic Programming is **Divide Conquer + Memorization**
+Dynamic Programming is **DFS/Divide Conquer + Memorization**
+
+**General Implementation step:**
+
+1. States:  
+   - The final state
+   - The relation between final state and sub-states
+
+2. Transformation equation 
+3. The first state and corner cases : ie. f[0]  and f[< 0]
+4. The order of DP : Bottom-up or Up-bottom
+
+### Coordinates DP:
+
+- [Medium - 322 Coins Change](https://github.com/Wanchunwei/leetcode/blob/master/notes/Coins%20Change.md)
 
 - [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
 - [Medium - 131 Palindromic Substrings](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindromic%20Substrings.md)
