@@ -28,21 +28,21 @@ public List<Integer> findClosestElements(List<Integer> arr, int k, int x) {
 }
 ```
 
-## Performance:
+# Performance:
 
 Runtime: 6 ms, faster than 47.27% of Java online submissions for Find K Closest Elements.
 
 Memory Usage: 40.1 MB, less than 88.31% of Java online submissions for Find K Closest Elements.
 
-## Time spent:
+# Time spent:
 
 Not Done
 
-## Times of Wrong answer:
+# Times of Wrong answer:
 
 2 - Bug 1, Bug 2
 
-## Solution
+# Solution
 
 ```java
 class Solution {

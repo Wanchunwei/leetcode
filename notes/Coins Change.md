@@ -40,6 +40,10 @@ class Solution {
 
 O(n^2)
 
+# Corner cases :
+
+1. i - i - coins[j] < 0 
+2. if i - coins[j] can not be made up by coins
+
 # Notes and Tips
 
-1. Corner case : i - i - coins[j] < 0 and if i - coins[j] can not be made up by coins
