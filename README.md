@@ -256,6 +256,7 @@ f[i] represents some property that end at ai
 **Common Corner cases:**  i == 0 || j == 0
 
 - [Medium - 63 Unique Paths II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Unique%20Paths.md)
+- [Medium - 64 Minimum Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Path%20Sum.md)
 - [Medium - 131 Palindromic Substrings](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindromic%20Substrings.md)
 - [Medium - 152 Maximum Product Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Product%20Subarray.md)
 - [Medium - 322 Coins Change](https://github.com/Wanchunwei/leetcode/blob/master/notes/Coins%20Change.md)
