@@ -255,6 +255,8 @@ f[i] represents some property that end at ai
 
 **Common Corner cases:**  i == 0 || j == 0
 
+- [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
+
 - [Medium - 63 Unique Paths II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Unique%20Paths.md)
 - [Medium - 64 Minimum Path Sum](https://github.com/Wanchunwei/leetcode/blob/master/notes/Minimum%20Path%20Sum.md)
 - [Medium - 131 Palindromic Substrings](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindromic%20Substrings.md)
@@ -266,8 +268,8 @@ f[i] represents some property that end at ai
 
 f[i] represents some property of a0 to ai-1
 
-- [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
 - [Medium - 139 Word Break](https://github.com/Wanchunwei/leetcode/blob/master/notes/Word%20Break.md)
+- [Hard 265 Paint House II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Paint%20House%20II.md)
 
 
 
