@@ -253,8 +253,11 @@ Dynamic Programming is **DFS/Divide Conquer + Memorization**
 
 f[i] represents some property that end at ai
 
-- [Medium - 63 Unique Paths II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Unique%20Paths.md)
+**Common Corner cases:**  i == 0 || j == 0
 
+- [Medium - 63 Unique Paths II](https://github.com/Wanchunwei/leetcode/blob/master/notes/Unique%20Paths.md)
+- [Medium - 131 Palindromic Substrings](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindromic%20Substrings.md)
+- [Medium - 152 Maximum Product Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Product%20Subarray.md)
 - [Medium - 322 Coins Change](https://github.com/Wanchunwei/leetcode/blob/master/notes/Coins%20Change.md)
 
 ### Sequence DP:
@@ -262,9 +265,7 @@ f[i] represents some property that end at ai
 f[i] represents some property of a0 to ai-1
 
 - [Easy - 53 Maximum Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Subarray.md)
-- [SeiMedium - 131 Palindromic Substrings](https://github.com/Wanchunwei/leetcode/blob/master/notes/Palindromic%20Substrings.md)
 - [Medium - 139 Word Break](https://github.com/Wanchunwei/leetcode/blob/master/notes/Word%20Break.md)
-- [Medium - 152 Maximum Product Subarray](https://github.com/Wanchunwei/leetcode/blob/master/notes/Maximum%20Product%20Subarray.md)
 
 
 
