@@ -62,6 +62,32 @@ class Solution {
 }
 ```
 
+```python
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        if not nums:
+            return [[]]
+        
+        results = []
+        self.dfs(nums, [], set(), results)
+        return results
+    
+    def dfs(self, nums, perm, container, results):
+        if (len(nums) == len(perm)):
+            results.append(list(perm))
+            return 
+        
+        for i in range(0, len(nums)):
+            if nums[i] not in container:
+                perm.append(nums[i])
+                container.add(nums[i])
+                self.dfs(nums, perm, container, results)
+                container.remove(nums[i])
+                perm.pop()
+```
+
+
+
 # Time complexity
 
 O(n)

@@ -81,6 +81,45 @@ class Solution {
 }
 ```
 
+```python
+class Solution:
+    def partition(self, s: str) -> List[List[str]]:
+        if len(s) == 0:
+            return []
+        
+        results = []
+        self.dfs(s, 0, [], results, {})
+        return results
+    
+    # Notation1: Must have index here rather than use the substring of s to replace s. otherwise will cause mistake in isPalindrome function
+    def dfs(self, s, index, parti, results, memo):
+        if index == len(s):
+            results.append(list(parti))
+            return 
+            
+        for i in range(index + 1, len(s) + 1):
+            if self.isPalindrome(index, i - 1, memo, s):
+                parti.append(s[index:i])
+                self.dfs(s, i, parti, results, memo)
+                parti.pop()
+                
+    def isPalindrome(self, start, end, memo, s):
+        if (start, end) in memo:
+            return memo[(start, end)]
+        
+        if start == end:
+            return True
+        
+        if start + 1 == end:
+            return s[start] == s[end]
+
+        memo[(start, end)] = s[start] == s[end] and self.isPalindrome(start + 1, end - 1, memo, s)
+        return memo[(start, end)]
+        
+```
+
+
+
 # Time complexity
 
 O(2^n)

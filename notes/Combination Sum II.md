@@ -63,6 +63,34 @@ class Solution {
 }
 ```
 
+```python
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        results, comb = [], []
+        candidates.sort()
+        self.dfs(candidates, comb, results, 0, target)
+        return list(results)
+    
+    def dfs(self, candidates, comb, results, start_index, remain_target):
+        if remain_target == 0:
+            results.append(list(comb))
+            return 0
+        
+        if remain_target < 0:
+            return 0
+        
+        for i in range(start_index, len(candidates)):
+            if i > 0 and i > start_index and candidates[i] == candidates[i - 1]:
+                continue
+            
+            comb.append(candidates[i])
+            self.dfs(candidates, comb, results, i + 1, remain_target - candidates[i])
+            comb.pop()
+        
+```
+
+
+
 # Time complexity
 
 O(n)

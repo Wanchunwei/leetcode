@@ -1,6 +1,6 @@
 # Algorithm
 
-DFS + Memory
+DFS + Memory (Which is **divide and conquer** actually)
 
 # Better solution
 
@@ -57,6 +57,40 @@ class Solution {
     }
 }
 ```
+
+```python
+class Solution:
+    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
+        if len(s) == 0 or not wordDict:
+            return []
+        
+        memo = {}
+        return self.dfs(s, 0, set(wordDict), memo)
+        
+    
+    def dfs(self, s, index, dic, memo):
+        if s[index:] in memo:
+            return memo[s[index:]]
+        
+        sub = []
+        # Notation 1: We can not just return s[index:], because s[index:] might be furhter partitioned
+        if s[index:] in dic:
+            sub.append(s[index:])
+            
+        if index == len(s):
+            return []
+            
+        for i in range(index, len(s)):
+            if s[index:i + 1] in dic:  
+                res = self.dfs(s, i + 1, dic, memo)
+                for parti in res:
+                    sub.append(s[index:i + 1] + " " + parti)
+         
+        memo[s[index:]] = sub
+        return sub
+```
+
+
 
 # Time complexity
 
